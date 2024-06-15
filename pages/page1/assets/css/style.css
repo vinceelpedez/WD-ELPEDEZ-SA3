@@ -1,0 +1,94 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.hogwarts-crest {
+  text-align: center;
+}
+
+.hogwarts-crest img {
+  width: 55px;
+  height: 55px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px; /* Adjust spacing between list items as needed */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #130e0e;
+  font-weight: bold;
+}
+
+header.design2{
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 10vw;
+  background: #918787;
+
+
+  }
+
+  & > nav.navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: rgb(0, 0, 0);
+    }
+
+
+
+@keyframes bounce {
+  0%, 20%, 50% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+
+
+}
+img{
+  height: 55px;
+  width: 55px;
+  padding: ;
+}
