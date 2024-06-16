@@ -20,8 +20,7 @@
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+
 ![](https://visit-counter.vercel.app/counter.png?https://github.com/vinceelpedez/WD-ELPEDEZ-SA3)
 ---
 
@@ -56,28 +55,38 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+<h1>Headers and Footers Design</h1>
+<h2>What is the Project?</h2>>
+<p>The project involves creating multiple designs for headers and footers using HTML and CSS. The goal is to demonstrate skills in front-end web development by crafting aesthetically pleasing and functional components that can be used across different web pages. The designs should be varied, incorporating different layouts, styles, and themes, with some inspired by popular culture, such as the Harry Potter series.</p>>
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+<h2>What's the Purpose?</h2>
+The primary purpose of this project is to showcase proficiency in HTML and CSS, particularly in creating reusable and adaptable header and footer components. These components are essential parts of a website, providing navigation, branding, and other critical information. By developing multiple designs, the project aims to:
 
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+Demonstrate versatility: Show the ability to create different styles and layouts.
+Enhance UI/UX: Improve the user experience with visually appealing and functional designs.
+Encourage creativity: Apply thematic elements (e.g., Harry Potter) to add uniqueness and engagement.
+Build reusable components: Create headers and footers that can be easily integrated into various web pages.
+
+<h2>What are Key Components?</h2>
+<h3>Headers:</h3>
+
+<h4>Navigation Menus:</h4> Different styles of navigation menus, including horizontal, vertical, and mega menus.
+Logos and Branding: Incorporating logos and other branding elements.
+Interactive Elements: Buttons, search bars, and animated features.
+Thematic Designs: Harry Potter-themed elements like fonts, colors, and images.
+Footers:
+
+Contact Information: Sections for contact details, social media links, and newsletters.
+Links and Navigation: Additional navigation links, site maps, and quick access links.
+Visual Elements: Use of icons, images, and decorative elements.
+Interactive Features: Animations, hover effects, and collapsible sections.
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
