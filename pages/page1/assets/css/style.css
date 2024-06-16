@@ -8,7 +8,37 @@ header {
   display: flex;
   align-items: center;
 }
+.buttons {
+  margin-top: 20px;
+}
 
+.btn {
+
+font-family: 'Harry Potter', sans-serif;
+font-size: 16px;
+letter-spacing: 2px;
+text-decoration: none;
+text-transform: uppercase;
+color: #000;
+cursor: pointer;
+border: 3px solid;
+padding: 0.25em 0.5em;
+box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+position: relative;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+
+}.btn:active{
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #131313;
+}
 nav ul {
   list-style: none;
   margin: 0;
@@ -90,5 +120,322 @@ header.design2{
 img{
   height: 55px;
   width: 55px;
-  padding: ;
+
 }
+
+header.design3{
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+ .img {
+    width: 50px;
+    vertical-align: middle;
+
+.header nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+.header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+}
+
+header.design4{
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background: #4CAF50;
+    padding: 20px;
+    color: #f00d0d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    width: 150px;
+}
+.header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header nav a:hover {
+    background: #3e8e41;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+}
+.header.design5 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar-logo {
+  width: 50px; /* Adjust the size of your logo */
+  height: 50px; /* Adjust the size of your logo */
+  background-color: #555; /* Placeholder color for the logo */
+    background-image: url('https://i.pinimg.com/564x/00/4f/85/004f85897539acdc23df49211852fa57.jpg'); /* Add your logo image path here */
+    background-size: cover; /* This will ensure that your logo covers the area without being stretched */
+    background-position: center; /* This will center your logo in the available space */
+
+}
+.navbar-right {
+  float: right;
+}
+}
+.header.design6{
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #333;
+    padding: 20px;
+    color: #999696;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-container {
+  height: 50px; /* Fixed height for the container */
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-height: 100%; /* Ensure the logo fits within the container's height */
+  object-fit: contain; /* This will ensure the logo keeps its aspect ratio */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    left: -100px;
+    opacity: 0;
+    transition: left 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.nav a:nth-child(1) { transition-delay: 0.1s; }
+.nav a:nth-child(2) { transition-delay: 0.2s; }
+.nav a:nth-child(3) { transition-delay: 0.3s; }
+.nav a:nth-child(4) { transition-delay: 0.4s; }
+.nav a:nth-child(5) { transition-delay: 0.5s; }
+
+.header:hover .nav a {
+    left: 0;
+    opacity: 1;
+}
+}
+
+
+  header.design-seven {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 7vw;
+    background: #000000;
+    
+    & > img.company-logo {
+      height: 100px;
+    }
+    
+    & > nav.navigation {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    
+      .navigation-content {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #ffffff;
+        border: 1px solid white;
+        font-style: italic;
+        transition: 0.5s ease;
+    
+        &:hover {
+          transform: scale(1.5);
+          color: #00ff00;
+        }
+    
+        
+      }
+    }
+    }
+    
+    @keyframes Breathing {
+    0% {
+    color: #ff0000;
+    }
+    16% {
+    color: #ff9900;
+    }
+    33% {
+    color: #ffff00;
+    }
+    50% {
+    color: #00ff00;
+    }
+    66% {
+    color: #0000ff;
+    }
+    83% {
+    color: #4b0082;
+    }
+    100% {
+    color: #ff00ff;
+    }
+    }
+
+    header.design-eight {
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.7rem 10vw;
+      background: #573434;
+      
+      & > img.company-logo {
+      height: 100px;
+      width: 50px;
+      cursor: pointer;
+      animation:  0.5s ease;
+      
+      
+      &:hover {
+        transform: scale(1.1);
+        animation: bounce 1s;
+      }
+      }
+      
+      & > nav.navigation {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      
+      & > a.navigation-content {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: black;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.1);
+          transform: scale(1.1);
+          animation: bounce 1s;
+        }
+      }
+      }
+      }
+
+      header.design-nine {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.7rem 10vw;
+        background: #ffffff;
+        
+        & > img.company-logo {
+          height: 50px;
+          cursor: pointer;
+          transition: 0.5s ease-in;
+
+          &:hover {
+            transform: scale(1.5);
+          }
+        }
+        & > nav.navigation {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+
+          & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: black;
+          }
+        }
+        }
+
+        header.design-ten {
+          width: 100vw;
+          display: flex;
+          justify-content: space-between;
+          padding: 0.7rem 10vw;
+          background: #000000;
+          
+          & > img.company-logo {
+          height: 100px;
+          -webkit-transition: -webkit-transform 1.0s;
+          
+          &:hover {
+            -webkit-transform: rotate(360deg);
+          }
+          }
+          
+          & > nav.navigation {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          
+          & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: white;
+            animation: Breathing 5.0s infinite;
+            transition: color 0.3s ease-in-out;
+          
+            &:hover {
+              color: #ffffff;
+            }
+          }
+          }
+          }
+          
+          @keyframes bounce {
+          0%, 20%, 50% {
+          transform: translateY(0);
+          }
+          40% {
+          transform: translateY(-10px);
+          }
+          60% {
+          transform: translateY(-5px);
+          }
+          }
