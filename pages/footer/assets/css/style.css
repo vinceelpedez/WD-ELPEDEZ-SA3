@@ -80,7 +80,7 @@
             color: white;
             text-decoration: none;
             font-size: 24px;
-            /* transition: background-color 0.3s ease; */
+
         }
 
         .social-icon.facebook {
@@ -91,9 +91,9 @@
             background-color: #1da1f2;
         }
 
-        /* .social-icon:hover {
+         .social-icon:hover {
             opacity: 0.8;
-        } */
+        }
 }
 
 footer.design2 {
