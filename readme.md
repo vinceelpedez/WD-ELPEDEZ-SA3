@@ -15,7 +15,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Headers and Footers
 </div>
 
 <br />
