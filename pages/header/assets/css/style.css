@@ -69,11 +69,10 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 20px; /* Adjust spacing between list items as needed */
+  margin-right: 20px;
 }
-
 nav ul li:last-child {
-  margin-right: 0; /* Remove margin from the last list item */
+  margin-right: 0;
 }
 
 nav ul li a {
